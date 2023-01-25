@@ -17,7 +17,7 @@ pipeline {
 
           }
           steps {
-            sh 'ci/build-app.sh'
+            sh 'simple-fortune-cookie-metropolia/jenkins-katas/ci/build-app.sh'
           }
         }
 
