@@ -17,8 +17,7 @@ pipeline {
 
           }
           steps {
-            sh '''#! /bin/bash
-gradle clean shadowjar -p app
+            sh '''gradle clean shadowjar -p app
 '''
           }
         }
