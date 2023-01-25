@@ -29,7 +29,7 @@ pipeline {
             
           }
           options{
-            skipDefaultCheckout()
+            skipDefaultCheckout(true)
           }
         }
 
